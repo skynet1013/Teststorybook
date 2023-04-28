@@ -3,7 +3,7 @@ import './button.css';
 export const createButton = ({
   primary = false,
   size = 'medium',
-  backgroundColor = '#F5F5F5', // デフォルト値を正しく設定
+  backgroundColor = '#000000', // デフォルト値を正しく設定
   label,
   onClick,
 }) => {
